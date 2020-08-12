@@ -1,0 +1,53 @@
+﻿$dark-over-lay:rgba(0,0,0,0.7);
+$font-color: #fff;
+$primary-color:#008ed6;
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "roboto";
+    color:$font-color;
+}
+.navbar{
+    opacity:0.7;
+}
+.navbar-toggler:focus, .navbar-toggler:focus {
+    outline:none;
+}
+#home-section {
+    background: url('https://images.pexels.com/photos/927022/pexels-photo-927022.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940') no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 700px;
+    color: $font-color;
+}
+.home-inner{
+    padding-top:150px;
+}
+.dark-overlay {
+    background-color: $dark-over-lay;
+    min-height:700px;
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+}
+.dark-overlay .fa ,#create-section .fa{
+    color:$primary-color;
+    background:#fff;
+    padding:4px;
+    border-radius:5px;
+    font-size:25px;
+}
+.align-self-end{
+    margin-bottom:5px;
+}
+#explore-head, #create-head, #create-section, #share-head, #main-footer {
+    color: $font-color;
+}
+#explore-section .fa , #share-section .fa {
+    color: $font-color;
+    background: #000;
+    padding: 4px;
+    border-radius: 5px;
+    font-size: 25px;
