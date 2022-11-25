@@ -1,4 +1,4 @@
-﻿$dark-over-lay:rgba(0,0,0,0.7);
+$dark-over-lay:rgba(0,0,0,0.7);
 $font-color: #fff;
 $primary-color:#008ed6;
 
@@ -6,7 +6,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: "roboto";
-    color:$font-color;
+    color:$font-color !important;
 }
 .navbar{
     opacity:0.7;
@@ -42,12 +42,10 @@ body {
 .align-self-end{
     margin-bottom:5px;
 }
-#explore-head, #create-head, #create-section, #share-head, #main-footer {
-    color: $font-color;
-}
 #explore-section .fa , #share-section .fa {
     color: $font-color;
     background: #000;
     padding: 4px;
     border-radius: 5px;
     font-size: 25px;
+}
